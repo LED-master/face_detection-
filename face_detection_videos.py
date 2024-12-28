@@ -5,7 +5,7 @@ from ultralytics import YOLO
 model = YOLO('yolov8n.pt')
 
 # 替换摄像头为本地视频
-video_path = r"E:\下载\457626358-1-192.mp4"  # 替换为你的视频文件路径
+video_path = r"*****************"  # 替换为你的视频文件路径
 cap = cv2.VideoCapture(video_path)
 
 while True:

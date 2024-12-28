@@ -28,7 +28,7 @@ def load_custom_weights(model, model_path):
 
 
 # 你的模型路径
-model_path = r"E:\下载\fer2013_big_XCEPTION.54-0.66.hdf5"
+model_path = r"你训练模型存放的路径"
 
 # 创建模型
 model = create_model()
